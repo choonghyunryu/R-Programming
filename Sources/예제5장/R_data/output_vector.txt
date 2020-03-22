@@ -1,0 +1,7 @@
+1 2 3 4 51 2 3 4 5 
+1 2 3 4 5 TRUE FALSE TRUE TRUE1 2 3 4 5 
+ TRUE FALSE TRUE TRUE 
+Five integers :  1 2 3 4 5 
+	 Done!!!
+1->2->3->4->5->
+1->2->3->4->5

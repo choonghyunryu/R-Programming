@@ -1,0 +1,8 @@
+week score flag
+sun 23 T
+mon 18 F
+tue 38 T
+wed 32 T
+thu 35 F
+fri 20 T
+sat 19 T

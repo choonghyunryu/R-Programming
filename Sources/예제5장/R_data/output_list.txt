@@ -1,0 +1,3 @@
+
+factor x is  1 2 3 4 5 
+factor y is  3.141593 

@@ -1,0 +1,10 @@
+Package: Testpkg
+Type: Package
+Title: User defined packages
+Version: 1.0
+Date: 2010-08-11
+Author: Packages example by Ryu Choonghyun
+Maintainer: Ryu Choonghyun <bdboys@naver.com>
+Description: Creation Packages Example
+License: GPL-2
+LazyLoad: yes

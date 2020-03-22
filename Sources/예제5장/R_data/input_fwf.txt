@@ -1,0 +1,10 @@
+# 관측치 5개/변수 3개, 고정 길이 컬럼
+week score flag
+sun23T
+mon18F
+tue38T
+wed32F
+thu35F
+fri20T
+sat19T
+# 고정 길이 컬럼 데이터 끝

@@ -1,0 +1,12 @@
+* install options are ' --no-html'
+
+* installing *source* package 'Testpkg' ...
+** R
+** data
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices ...
+** testing if installed package can be loaded
+
+* DONE (Testpkg)

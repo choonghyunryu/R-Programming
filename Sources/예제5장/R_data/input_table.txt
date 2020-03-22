@@ -1,0 +1,10 @@
+# 관측치 5개, 변수 3개
+week score	flag
+"sun weekend" 23	T
+mon 18	F
+tue 38 T
+wed 32 NA
+thu 35 F
+fri 20 T
+'sat weekend' 19 T
+# 데이터 끝

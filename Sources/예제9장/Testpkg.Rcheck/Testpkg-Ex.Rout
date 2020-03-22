@@ -1,0 +1,99 @@
+
+R version 2.11.1 (2010-05-31)
+Copyright (C) 2010 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "Testpkg"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> options(pager = "console")
+> library('Testpkg')
+> 
+> assign(".oldSearch", search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("center")
+> ### * center
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: center
+> ### Title: The mean, median calculations
+> ### Aliases: center
+> ### Keywords: ~kwd1 ~kwd2
+> 
+> ### ** Examples
+> 
+> set.seed(1)
+> x <- rcauchy(10)
+> center(x, "t")		# trimmed mean
+[1] -0.3632328
+> center(x, "med")	# median
+[1] -0.2361110
+> 
+> 
+> 
+> cleanEx()
+> nameEx("my.mean")
+> ### * my.mean
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: my.mean
+> ### Title: Calculate the arithmetic mean
+> ### Aliases: my.mean
+> ### Keywords: ~kwd1 ~kwd2
+> 
+> ### ** Examples
+> 
+> my.mean(1:10)
+[1] 5.5
+> 
+> 
+> 
+> cleanEx()
+> nameEx("mydata")
+> ### * mydata
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: mydata
+> ### Title: normal random numbers
+> ### Aliases: mydata
+> ### Keywords: datasets
+> 
+> ### ** Examples
+> 
+> data(mydata)
+> mean(mydata)
+[1] 5.5
+> plot(mydata, type="o")
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> cat("Time elapsed: ", proc.time() - get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  0.21 0.06 0.27 NA NA 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

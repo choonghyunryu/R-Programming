@@ -1,0 +1,4 @@
+Testpkg-package         User defined packages
+center                  The mean, median calculations
+my.mean                 Calculate the arithmetic mean
+mydata                  normal random numbers

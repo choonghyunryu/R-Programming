@@ -1,0 +1,4 @@
+	Murder   => Alabama:13.2	Alaska:  10	Arizona: 8.1 
+ 	Assault  => Alabama: 236	Alaska: 263	Arizona: 294 
+ 	UrbanPop => Alabama:  58	Alaska:  48	Arizona:  80 
+ 	Rape     => Alabama:21.2	Alaska:44.5	Arizona:  31 
