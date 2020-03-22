@@ -1,6 +1,5 @@
 # R Programming
 
-Cover: 
 ![alt text](https://github.com/choonghyunryu/R-Programming/blob/master/Cover.jpeg "Cover Image")
 
 * Title : R Programming
