@@ -1,7 +1,7 @@
 # R Programming
 
 Cover: 
-![alt text](https://github.com/choonghyunryu/R-Programming/Cover.jpeg "Cover Image")
+![alt text](https://github.com/choonghyunryu/R-Programming/blob/master/Cover.jpeg "Cover Image")
 
 * Title : R Programming
 * Author : Choonghyun Ryu
